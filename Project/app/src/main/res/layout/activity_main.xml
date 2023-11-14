@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Activities.MainActivity"
+    android:id="@+id/menu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-6dp"
+        android:src="@drawable/top_background" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-227dp"
+        android:layout_marginEnd="145dp"
+        android:text="Welcome"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="398dp"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="303dp"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-155dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="308dp"
+        android:drawableEnd="@drawable/search_icon"
+        android:drawablePadding="2dp"
+        android:elevation="3dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="2sp"
+        android:paddingEnd="4dp"
+        android:text="Search for..."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/medecinsB"
+        android:layout_width="150dp"
+        android:layout_height="143dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="124dp"
+        android:background="@color/white"
+        android:contentDescription="Bouton de medecin"
+        android:src="@drawable/ic_4" />
+
+    <ImageButton
+        android:id="@+id/reclamationB"
+        android:layout_width="118dp"
+        android:layout_height="147dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="115dp"
+        android:background="@color/white"
+        android:contentDescription="Bouton de réclamation"
+        android:src="@drawable/ic_6" />
+
+    <ImageButton
+        android:id="@+id/pharmacyB"
+        android:layout_width="133dp"
+        android:layout_height="154dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="112dp"
+        android:background="@color/white"
+        android:contentDescription="Bouton de pharmacy"
+        android:src="@drawable/ic_2" />
+
+    <ImageButton
+        android:id="@+id/userB"
+        android:layout_width="147dp"
+        android:layout_height="123dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/white"
+        android:contentDescription="Bouton de pharmacy"
+        app:srcCompat="@drawable/name" />
+
+    <ImageButton
+        android:id="@+id/PowerB"
+        android:layout_width="75dp"
+        android:layout_height="82dp"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <TextView
+        android:id="@+id/med"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="138dp"
+        android:layout_toStartOf="@+id/pharmacyB"
+        android:text="Docters"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-104dp"
+        android:layout_marginBottom="138dp"
+        android:layout_toStartOf="@+id/pharmacyB"
+        android:text="Pharmacy"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-219dp"
+        android:layout_marginBottom="138dp"
+        android:layout_toStartOf="@+id/pharmacyB"
+        android:text="Cleams"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/userss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-87dp"
+        android:layout_marginBottom="21dp"
+        android:layout_toStartOf="@+id/pharmacyB"
+        android:text="users"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

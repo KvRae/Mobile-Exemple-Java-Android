@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="395dp"
+        android:layout_height="429dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-91dp"
+        app:srcCompat="@drawable/top_background2" />
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="376dp"
+        android:layout_height="89dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="206dp"
+        android:layout_marginBottom="420dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="379dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="296dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="375dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="390dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="166dp"
+        android:text="Sign Up" />
+
+    <TextView
+            android:id="@+id/textViewSignInLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonSignUp"
+            android:text="Already have an account? Sign in here."
+            android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="118dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="47dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="50dp"
+        app:srcCompat="@drawable/google" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextName"
+        android:layout_alignBottom="@+id/editTextName"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="15dp"
+        app:srcCompat="@drawable/name" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="46dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/editTextEmail"
+        android:layout_alignBottom="@+id/editTextEmail"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="44dp"
+        android:layout_height="47dp"
+        android:layout_alignEnd="@+id/editTextPassword"
+        android:layout_alignBottom="@+id/editTextPassword"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="23dp"
+        app:srcCompat="@drawable/password" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="215dp"
+        android:layout_height="122dp"
+        android:layout_alignStart="@+id/imageView9"
+        android:layout_alignEnd="@+id/imageView9"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="528dp"
+        android:text="NEW ACCOUNT"
+        android:textColor="#025702"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

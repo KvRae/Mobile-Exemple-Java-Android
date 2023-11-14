@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/medecinF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Activities.MedecinActivity">
+
+    <!--<Button
+        android:id="@+id/frag1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="fragment1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/frag2"
+        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!-- <Button
+         android:id="@+id/frag2"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="Fragment2"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toStartOf="@+id/frag3"
+         app:layout_constraintStart_toEndOf="@+id/frag1" />-->
+
+    <!--  <Button
+         android:id="@+id/frag3"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:text="Fragment3"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toEndOf="@+id/frag2" />-->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="462dp"
+        android:layout_height="413dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        app:srcCompat="@drawable/top_background1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Medecins"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="69dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/p"
+        tools:layout_editor_absoluteY="16dp" />
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="285dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="16dp"
+        android:drawableEnd="@drawable/search_icon"
+        android:drawablePadding="2dp"
+        android:elevation="3dp"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="20sp"
+        android:paddingEnd="4dp"
+        android:text="Search for..."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <ImageView
+        android:id="@+id/imageViewCalendrier"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Bouton de calendrier"
+        android:rotation="180"
+        android:src="@drawable/btn_arraw1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+    <ImageView
+        android:id="@+id/AddMedi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="Bouton de calendrier"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:srcCompat="@android:drawable/ic_input_add" />
+     <androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recyclerView3"
+    android:layout_width="391dp"
+    android:layout_height="401dp"
+    android:background="#00FFFFFF"
+    android:clipToPadding="false"
+    android:divider="@android:color/darker_gray"
+    android:dividerHeight="0.8dp"
+    android:padding="16dp"
+    android:scrollbars="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editTextText"
+    app:layout_constraintVertical_bias="0.494" />
+</androidx.constraintlayout.widget.ConstraintLayout>
