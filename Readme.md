@@ -71,11 +71,9 @@ This Android application is developed as an academic project for ESPRIT/Mobile D
   - `ui`: Contains activities and fragments for the user interface.
   - `data`: Includes classes for database access and data entities.
   - `utils`: Utility classes.
-  - [Other relevant packages]
 
 - **`app/src/main/res/`**
   - `layout`: XML layout files for UI design.
-  - [Other relevant resource directories]
 
 ## Contributing
 
